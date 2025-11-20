@@ -2,9 +2,11 @@
 
 :root {
   --bg: #f5f7fa;
+  --bg2: #1b1b1b;
   --card: #ffffff;
   --primary: #1a73e8;
   --text: #1b1b1b;
+  --text2: #f5f7fa;
   --radius: 18px;
   --shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
@@ -15,6 +17,13 @@ body {
   background: var(--bg);
   color: var(--text);
 }
+
+/* body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: var(--bg2);
+  color: var(--text2);
+} */
 
 .container {
   max-width: 900px;
@@ -138,7 +147,7 @@ body {
 }
 
 /* 🌙 DARK MODE PREMIUM */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0f1115;
     --card: #1a1d23;
@@ -171,4 +180,4 @@ body {
   .cta-button:hover {
     transform: scale(1.05);
   }
-}
+} */

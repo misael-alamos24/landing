@@ -856,7 +856,7 @@ export default function LandingPremium2() {
     extras: <ExtrasSelector onChange={() => {}} /> ,
     hero: (
       <div className="section">
-        <h1 className="title">Landings profesionales en 48 horas</h1>
+        <h1 className="title">Landings profesionales en 48 horas 💻⏳</h1>
         <p className="subtitle">
           Convertí más ventas con una landing moderna, rápida y optimizada.
         </p>
@@ -872,7 +872,7 @@ export default function LandingPremium2() {
     ),
     problema: (
       <div className="section">
-        <h2>¿Por qué tener una Landing de tu negocio?</h2>
+        <h2>¿Por qué tener una Landing de tu negocio? 📈</h2>
         <p>
           Una Landing te ayuda a convertir en clientes a quienes te visitan por primera vez, 
           dándoles información clara y simplificando que te contacten o reserven un turno.
@@ -892,7 +892,7 @@ export default function LandingPremium2() {
     ),
     entrega: (
       <div className="section">
-        <h2>Lo que recibís</h2>
+        <h2>Lo que recibís 🫱🏻‍🫲🏻</h2>
         <ul>
           <li>Landing completa</li>
           <li>Texto de ventas armado</li>
@@ -903,7 +903,7 @@ export default function LandingPremium2() {
     ),
     proceso: (
       <div className="section">
-        <h2>Proceso</h2>
+        <h2>Proceso ✍🏻</h2>
         <ol>
           <li>Te hago un par de preguntas</li>
           <li>Armo el copy</li>
@@ -920,14 +920,14 @@ export default function LandingPremium2() {
     // ),
     precio: (
       <div className="section">
-        <h2>Precio</h2>
+        <h2>Precio 🪙</h2>
         <p className="price">AR$ 45.000</p>
         <p>Entrega en 48 horas incluida.</p>
       </div>
     ),
     cta: (
       <div className="section">
-        <h2>¿Listo para vender más?</h2>
+        <h2>¿Listo para vender más? 📨</h2>
         
         <a
           href={`https://wa.me/5491158774985?text=Hola!%20Estoy%20interesado%20en%20una%20landing%20page.`}
@@ -943,6 +943,11 @@ export default function LandingPremium2() {
 
   return (
     <div className="container">
+
+      {/* <button id="theme-toggle" className="theme-toggle">
+        🌙
+      </button> */}
+
       <div className="tabs">
         {tabs.map((t) => (
           <button
