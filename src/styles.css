@@ -136,3 +136,39 @@ body {
 .whatsapp-btn:active {
   transform: scale(0.97);
 }
+
+/* 🌙 DARK MODE PREMIUM */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --card: #1a1d23;
+    --primary: #4d8bff;
+    --text: #f3f4f6;
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .tab {
+    background: #2a2e36;
+    color: #d7d7d7;
+  }
+
+  .tab.active {
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 4px 12px rgba(77, 139, 255, 0.4);
+  }
+
+  .content-box {
+    background: var(--card);
+    box-shadow: var(--shadow);
+  }
+
+  .cta-button {
+    background: var(--primary);
+    box-shadow: 0 6px 18px rgba(77, 139, 255, 0.3);
+  }
+
+  .cta-button:hover {
+    transform: scale(1.05);
+  }
+}
